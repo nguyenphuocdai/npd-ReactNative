@@ -3,6 +3,10 @@ import App from "./App";
 import robot from "./components/robot";
 import multipleGreetings from "./components/multipleGreetings";
 import TextBlink from "./components/TextBlink";
+import FixedDismension from "./components/FixedDismension";
+import FlexDismission from "./components/FlexDismission";
+import FlexExample from "./components/FlexExample";
+import Login from "./components/Login";
 
 import React, { Component } from "react";
 
@@ -40,4 +44,4 @@ const styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent("ReactNativeApp", () => index);
+AppRegistry.registerComponent("ReactNativeApp", () => Login);
